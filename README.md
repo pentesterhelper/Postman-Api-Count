@@ -26,6 +26,7 @@ By leveraging Postman-API-Count, developers and testers can streamline their API
                  https://pentesterhelper.cloud/api/forgetpassword
                  https://pentesterhelper.cloud/api/commanId/879
                  https://pentesterhelper.cloud/api/upload/user/789
+                 Total API:  4
                  
      With Method
      
@@ -33,6 +34,7 @@ By leveraging Postman-API-Count, developers and testers can streamline their API
      Response -> POST : https://pentesterhelper.cloud/api/login
                  POST : https://pentesterhelper.cloud/api/forgetpassword
                  GET :  https://pentesterhelper.cloud/api/commanId/879
-                 GET :  https://pentesterhelper.cloud/api/upload/user/789             
+                 GET :  https://pentesterhelper.cloud/api/upload/user/789
+                 Total API:  4
     
     
