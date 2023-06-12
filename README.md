@@ -13,3 +13,22 @@ Key features of Postman-API-Count include:
 3. Total API Count: The tool offers a straightforward way to obtain the total count of APIs in a Postman collection. By simply running the count command, users can quickly gather information about the number of APIs they have in their collection.
 
 By leveraging Postman-API-Count, developers and testers can streamline their API management processes, gain insights into their collections, and improve the overall quality and efficiency of their API development workflows.
+
+# Uses
+     Without Method
+     
+     Request -> python3 PostmanAPICount.py filename.postmancollection.json
+     Response -> https://pentesterhelper.cloud/api/login
+                 https://pentesterhelper.cloud/api/forgetpassword
+                 https://pentesterhelper.cloud/api/commanId/879
+                 https://pentesterhelper.cloud/api/upload/user/789
+                 
+     With Method
+     
+     Request -> python3 PostmanAPICount.py filename.postmancollection.json --method
+     Response -> POST : https://pentesterhelper.cloud/api/login
+                 POST : https://pentesterhelper.cloud/api/forgetpassword
+                 GET :  https://pentesterhelper.cloud/api/commanId/879
+                 GET :  https://pentesterhelper.cloud/api/upload/user/789             
+    
+    
