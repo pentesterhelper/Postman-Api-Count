@@ -15,6 +15,10 @@ Key features of Postman-API-Count include:
 By leveraging Postman-API-Count, developers and testers can streamline their API management processes, gain insights into their collections, and improve the overall quality and efficiency of their API development workflows.
 
 # Uses
+
+     git clone https://github.com/pentesterhelper/Postman-Api-Count.git
+     cd Postman-API-Count
+     
      Without Method
      
      Request -> python3 PostmanAPICount.py filename.postmancollection.json
