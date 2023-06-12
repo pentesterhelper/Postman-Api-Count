@@ -1,6 +1,6 @@
 import os
 import sys
-
+import subprocess
 
 
 file_path = 'out.txt'
@@ -10,9 +10,9 @@ file_path_method = 'meth.txt'
 def uses():
     print("Uses")
 
-def grep(script_name,file_path,file_path_method):
-    os.system(f'grep raw {script_name}  > {file_path}')
-    os.system(f'grep method {script_name}  > {file_path_method}')
+def grep(script_name, file_path, file_path_method):
+    subprocess.run(['grep', 'raw', script_name], stdout=open(file_path, 'w'))
+    subprocess.run(['grep', 'method', script_name], stdout=open(file_path_method, 'w'))
 
 def replace_string_in_file(file_path, old_string, new_string):
     # Read the file contents
@@ -104,6 +104,3 @@ elif(len(sys.argv) == 3):
 else:
     uses()
     exit()
-
-
-
