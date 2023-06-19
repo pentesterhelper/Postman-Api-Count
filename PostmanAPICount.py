@@ -8,7 +8,10 @@ file_path_method = 'meth.txt'
 
 
 def uses():
-    print("Uses")
+    print("Welcome To Postman API Count")
+    print("Command Line:")
+    print("Extracting API without Method: python3 PostmanAPICount.py filename.postmancollection.json")
+    print("Extracting API with Method: python3 PostmanAPICount.py filename.postmancollection.json --method")
 
 def grep(script_name, file_path, file_path_method):
     subprocess.run(['grep', 'raw', script_name], stdout=open(file_path, 'w'))
